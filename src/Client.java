@@ -8,7 +8,16 @@ public class Client implements Runnable {
 	}
 	@Override
 	public void run() {
-		System.out.println("Bien le bonjour du thread "+numero+" !");
-		piscine.
+		System.out.println("Le client " + numero + " est arrivé");
+		piscine.getPointDeVente().vendre(numero);
+		piscine.getVestiaire().entrer(numero);
+		piscine.getVestiaire().seChanger(numero, true);
+		piscine.getVestiaire().sortir(numero);
+		
+		piscine.getVestiaire().entrer(numero);
+		piscine.getVestiaire().seChanger(numero, false);
+		piscine.getVestiaire().sortir(numero);
+		System.out.println("Le client " + numero + " est parti");
+		return;
 	}
 }
