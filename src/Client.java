@@ -9,10 +9,16 @@ public class Client implements Runnable {
 	@Override
 	public void run() {
 		System.out.println("Le client " + numero + " est arrivé");
+		
 		piscine.getPointDeVente().vendre(numero);
+		
 		piscine.getVestiaire().entrer(numero);
 		piscine.getVestiaire().seChanger(numero, true);
 		piscine.getVestiaire().sortir(numero);
+		
+		piscine.getBassin().entrer(numero);
+		piscine.getBassin().nage(numero);
+		piscine.getBassin().sortir(numero);
 		
 		piscine.getVestiaire().entrer(numero);
 		piscine.getVestiaire().seChanger(numero, false);
