@@ -1,3 +1,4 @@
+package part2;
 
 public class Piscine {
 	private Vestiaire vestiaire = new Vestiaire();

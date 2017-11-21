@@ -1,13 +1,16 @@
+package part1;
+import java.util.Random;
 
-public class Vestiaire {
+public class Bassin {
 	
 	private final int capacite = 3;
-	private final int temps = 10;
+	private final int tempsMin = 40;
+	private final int tempsMax = 100;
 	private int occupants = 0;
 	
 	public synchronized void entrer(int num) {
 		if (occupants >= capacite) {
-			System.out.println("Le client " + num + " attend car les vestiaires sont pleins");
+			System.out.println("Le client " + num + " attend car le bassin est plein");
 			try {
 				wait();
 			} catch (InterruptedException e) {
@@ -16,12 +19,13 @@ public class Vestiaire {
 			}
 		}
 		occupants++;
-		System.out.println("Le client " + num + " est entré dans les vestiaires");
+		System.out.println("Le client " + num + " a plongé !");
 	}
 	
-	public void seChanger(int num, boolean seChanger) {
-		System.out.println("Le client " + num + (seChanger?" met son maillot":" remet ses vêtements"));
+	public void nage(int num) {
+		System.out.println("Le client " + num + " barbote dans le bassin");
 		
+		int temps = new Random().nextInt(tempsMax-tempsMin)+tempsMin;
 		try {
 			Thread.sleep(temps);
 		} catch (InterruptedException e) {
@@ -33,6 +37,6 @@ public class Vestiaire {
 	public synchronized void sortir(int num) {
 		occupants--;
 		notify();
-		System.out.println("Le client " + num + " est sorti des vestiaires");
+		System.out.println("Le client " + num + " est sorti du bassin");
 	}
 }

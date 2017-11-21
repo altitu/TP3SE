@@ -1,3 +1,4 @@
+package part1;
 
 public class Client implements Runnable {
 	// Identifiant du client
