@@ -20,7 +20,9 @@ public class Client implements Runnable {
 		System.out.println("Le client " + numero + " est arrivé");
 		
 		// Achat du ticket au guichet
-		piscine.getPointDeVente().vendre(numero);
+		int guichet = piscine.getPointDeVente().allerAuGuichet(numero);
+		piscine.getPointDeVente().acheterTicket(numero, guichet);
+		piscine.getPointDeVente().partirDuGuichet(numero, guichet);
 		
 		// Mettage de maillot
 		piscine.getVestiaire().entrer(numero);
