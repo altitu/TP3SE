@@ -5,59 +5,81 @@ import java.util.List;
 
 public class ReceptionCounters {
 	
-	private final int time = 5;
-	private final int nbCounters = 2;
-	// Disponibilité des guichets
+	/// Time for buying a ticket
+	private int time;
+	/// Number of counters
+	private int nbCounters;
+	
+	/// Availability of counters (boolean at counter[i] means counter #i is busy) 
 	private List<Boolean> counters = new ArrayList<>();
 	
-	public ReceptionCounters() {
-		// Tous les guichets sont libres
+	/**
+	 * Create new reception counters
+	 * @param nbCounters number of counters
+	 * @param time time to buy a ticket
+	 */
+	public ReceptionCounters(int nbCounters, int time) {
+		this.nbCounters = nbCounters;
+		this.time = time;
+		// All counters are available
 		for (int i=0;i<nbCounters;++i)
 			counters.add(false);
 	}
 	
-	private boolean all(List<Boolean> a) {
-		for (boolean a1 : a) {
-			if (!a1) return false;
-		}
-		return true;
-	}
-	
-	public synchronized int waitInLine(int num) {
-		// Attendre si tous les guichets sont occupés
-		if (all(counters)) {
-			System.out.println("The client #" + num + " waits in line");
-			try {
-				wait();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		// Quand un se libère, le prendre (ou prendre le premier si les deux sont dispo)
+	public int getAvailableCounter() {
 		for (int i=0;i<nbCounters;++i) {
-			if (!counters.get(i)) {
-				counters.set(i, true);
-				return i;
-			}
+			if (!counters.get(i)) return i;
 		}
 		return -1;
 	}
 	
+	/**
+	 * A client waits in line for a counter to be available
+	 * @param num unique client id
+	 * @return the counter the client chose
+	 */
+	public synchronized int waitInLine(int num) {
+		System.out.println("The client #" + num + " waits in line");
+		// If all counters are busy, wait 
+		// (while wait is required because sometimes threads wake up without being notified)
+		int availableCounter = -1;
+		while ((availableCounter = getAvailableCounter()) == -1) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		// When one counter is available, find which one it is, make it busy and return its id
+		counters.set(availableCounter, true);
+		return availableCounter;
+	}
+	
+	/**
+	 * A client buys a ticket from the counter
+	 * @param num unique client id
+	 * @param counter counter id
+	 */
 	public void buyTicket(int num, int counter) {
 		System.out.println("The client #" + num + " buys a ticket at the counter #" + counter);
 		try {
 			Thread.sleep(time);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
+	/**
+	 * A client leaves the counter
+	 * @param num unique client id
+	 * @param counter counter id
+	 */
 	public synchronized void leaveCounter(int num, int counter) {
-		// Libérer le guichet
-		counters.set(counter, false);
-		notify();
 		System.out.println("The client #" + num + " leaves the counter #" + counter);
+		// Sets the counter to be available
+		counters.set(counter, false);
+		// Notify a client waiting for a counter
+		notify();
+		
 	}
 }

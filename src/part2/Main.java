@@ -8,14 +8,19 @@ public class Main {
 	public static void main(String args[]) {
 		SwimmingPool swimmingPool = new SwimmingPool();
 		ArrayList<Thread> clientThreadArray = new ArrayList<Thread>();
-		// Crée et lance un thread par client
-		for (int i=0; i <nbClients; i++) {
+		
+		// Creates a thread for each client
+		for (int i=0;i<nbClients;++i) {
 			Thread thread = new Thread(new Client(swimmingPool, i));
-			thread.start();
 			clientThreadArray.add(thread);
 		}
 		
-		// Attend la fin des threads
+		// Start all threads
+		for (int i=0;i<nbClients;++i) {
+			clientThreadArray.get(i).start();
+		}
+		
+		// Waits for threads to terminate
 		for (Thread thread : clientThreadArray) {
 			try {
 				thread.join();
