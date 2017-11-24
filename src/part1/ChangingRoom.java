@@ -21,7 +21,7 @@ public class ChangingRoom {
 	}
 	
 	public void change(int num, boolean how) {
-		System.out.println("The client #" + num + (how?" puts on his swimsuit":" changes their clothes back"));
+		System.out.println("The client #" + num + (how?" puts on their swimsuit":" changes their clothes back"));
 		
 		try {
 			Thread.sleep(time);
