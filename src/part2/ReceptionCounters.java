@@ -26,6 +26,10 @@ public class ReceptionCounters {
 			counters.add(false);
 	}
 	
+	/**
+	 * Return the id of an available counter, -1 if no counter is available
+	 * @return
+	 */
 	public int getAvailableCounter() {
 		for (int i=0;i<nbCounters;++i) {
 			if (!counters.get(i)) return i;
