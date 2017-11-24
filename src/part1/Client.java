@@ -2,43 +2,43 @@ package part1;
 
 public class Client implements Runnable {
 	// Identifiant du client
-	int numero;
+	int num;
 	// Reference vers la piscine
-	Piscine piscine;
+	SwimmingPool swimmingPool;
 	
 	/**
 	 * Crée un client
 	 * @param piscine référence vers la piscine
-	 * @param numero numéro unique du client
+	 * @param num numéro unique du client
 	 */
-	public Client(Piscine piscine, int numero) {
-		this.piscine = piscine;
-		this.numero = numero;
+	public Client(SwimmingPool piscine, int num) {
+		this.swimmingPool = piscine;
+		this.num = num;
 	}
 	@Override
 	public void run() {
-		System.out.println("Le client " + numero + " est arrivé");
+		System.out.println("The client #" + num + " enters the swimming pool");
 		
 		// Achat du ticket au guichet
-		piscine.getPointDeVente().vendre(numero);
+		swimmingPool.getReceptionCounter().buyTicket(num);
 		
 		// Mettage de maillot
-		piscine.getVestiaire().entrer(numero);
-		piscine.getVestiaire().seChanger(numero, true);
-		piscine.getVestiaire().sortir(numero);
+		swimmingPool.getChangingRoom().enter(num);
+		swimmingPool.getChangingRoom().change(num, true);
+		swimmingPool.getChangingRoom().leave(num);
 		
 		// Plongeage dans le bassin
-		piscine.getBassin().entrer(numero);
-		piscine.getBassin().nage(numero);
-		piscine.getBassin().sortir(numero);
+		swimmingPool.getPool().enter(num);
+		swimmingPool.getPool().swim(num);
+		swimmingPool.getPool().leave(num);
 		
 		// Demettage de maillot
-		piscine.getVestiaire().entrer(numero);
-		piscine.getVestiaire().seChanger(numero, false);
-		piscine.getVestiaire().sortir(numero);
+		swimmingPool.getChangingRoom().enter(num);
+		swimmingPool.getChangingRoom().change(num, false);
+		swimmingPool.getChangingRoom().leave(num);
 		
 		// Sortissage de la piscine
-		System.out.println("Le client " + numero + " est parti");
+		System.out.println("The client #" + num + " leaves the swimming pool");
 		return;
 	}
 }
