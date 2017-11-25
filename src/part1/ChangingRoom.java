@@ -16,6 +16,7 @@ public class ChangingRoom {
 	 */
 	public ChangingRoom(int capacity, int time) {
 		this.capacity = capacity;
+		this.time = time;
 	}
 	
 	/**
@@ -24,7 +25,8 @@ public class ChangingRoom {
 	 */
 	public synchronized void enter(int num) {
 		// If full, wait
-		if (occupiers >= capacity) {
+		// (while wait is required because sometimes threads wake up without being notified)
+		while (occupiers >= capacity) {
 			System.out.println("The client #" + num + " is waiting for people to leave the changing room");
 			try {
 				wait();

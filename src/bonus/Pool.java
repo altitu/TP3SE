@@ -1,4 +1,4 @@
-package part1;
+package bonus;
 import java.util.Random;
 
 public class Pool {
@@ -11,6 +11,8 @@ public class Pool {
 	private int timeMax = 100;
 	/// Current number of clients in the pool
 	private int occupiers = 0;
+	/// Indicates whether Jean-Luc is doing maintenance
+	private boolean maintenance = false;
 	
 	/**
 	 * Create a new pool
@@ -22,6 +24,10 @@ public class Pool {
 		this.capacity = capacity;
 		this.timeMin = timeMin;
 		this.timeMax = timeMax;
+		
+		Thread t = new Thread(new JeanLuc(this));
+		t.setDaemon(true);
+		t.start();
 	}
 	
 	/**
@@ -31,12 +37,8 @@ public class Pool {
 	public synchronized void enter(int num) {
 		// If full, wait
 		// (while wait is required because sometimes threads wake up without being notified)
-		boolean printed = false;
-		while  (occupiers >= capacity) {
-			if (!printed) {
-				System.out.println("The client #" + num + " waits for people to leave the pool");
-				printed = true;
-			}
+		while (occupiers >= capacity || maintenance) {
+			System.out.println("The client #" + num + " waits for people to leave the pool");
 			try {
 				wait();
 			} catch (InterruptedException e) {
@@ -70,9 +72,34 @@ public class Pool {
 	 * @param num
 	 */
 	public synchronized void leave(int num) {
-		// Notify a client waiting to get in the pool
+		// Notify a client waiting to get in the pool or Jean-Luc
 		occupiers--;
-		notify();
+		notifyAll();
 		System.out.println("The client #" + num + " left the pool");
+	}
+	
+	/**
+	 * Clients can't go in the pool and when no one is left, Jean-Luc cleans the pool
+	 */
+	public synchronized void startMaintenance() {
+		this.maintenance = true;
+		System.out.println("Jean-Luc tells people not to get in the pool and waits for clients to come out");
+		// Wait for clients to get out
+		while (occupiers > 0) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	/**
+	 * Clients can go back in the pool after maintenance
+	 */
+	public synchronized void stopMaintenance() {
+		this.maintenance = false;
+		System.out.println("Jean-Luc takes a well-deserved break and tells the clients they can come back");
+		notifyAll();
 	}
 }
