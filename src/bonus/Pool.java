@@ -19,13 +19,15 @@ public class Pool {
 	 * @param capacity maximum number of clients in the pool at the same time
 	 * @param timeMin minimum swimming time
 	 * @param timeMax maximum swimming time
+	 * @param jeanLucBreakTime time between maintenances
+	 * @param jeanLucMaintenanceTime time of pool cleaning
 	 */
-	public Pool(int capacity, int timeMin, int timeMax) {
+	public Pool(int capacity, int timeMin, int timeMax, int jeanLucBreakTime, int jeanLucMaintenanceTime) {
 		this.capacity = capacity;
 		this.timeMin = timeMin;
 		this.timeMax = timeMax;
 		
-		Thread t = new Thread(new JeanLuc(this));
+		Thread t = new Thread(new JeanLuc(this, jeanLucBreakTime, jeanLucMaintenanceTime));
 		t.setDaemon(true);
 		t.start();
 	}

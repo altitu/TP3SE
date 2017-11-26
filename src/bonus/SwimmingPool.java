@@ -11,7 +11,7 @@ public class SwimmingPool {
 	
 	private ReceptionCounters receptionCounters = new ReceptionCounters(2, 2);
 	
-	private Pool pool = new Pool(10, 10, 20);
+	private Pool pool = new Pool(10, 10, 20, 40, 20);
 	
 	private SwimfinStore swimfinStore = new SwimfinStore(16, 2);
 	

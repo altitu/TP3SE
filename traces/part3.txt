@@ -1,0 +1,635 @@
+The client #0 enters the swimming pool
+The client #4 enters the swimming pool
+The client #0 waits in line
+The client #2 enters the swimming pool
+The client #1 enters the swimming pool
+The client #3 enters the swimming pool
+The client #5 enters the swimming pool
+The client #6 enters the swimming pool
+The client #0 buys a ticket at the counter #0
+The client #4 waits in line
+The client #12 enters the swimming pool
+The client #14 enters the swimming pool
+The client #15 enters the swimming pool
+The client #9 enters the swimming pool
+The client #7 enters the swimming pool
+The client #8 enters the swimming pool
+The client #10 enters the swimming pool
+The client #18 enters the swimming pool
+The client #6 waits in line
+The client #11 enters the swimming pool
+The client #4 buys a ticket at the counter #1
+The client #5 waits in line
+The client #13 enters the swimming pool
+The client #13 waits in line
+The client #11 waits in line
+The client #16 enters the swimming pool
+The client #16 waits in line
+The client #17 enters the swimming pool
+The client #17 waits in line
+The client #19 enters the swimming pool
+The client #19 waits in line
+The client #22 enters the swimming pool
+The client #22 waits in line
+The client #23 enters the swimming pool
+The client #23 waits in line
+The client #3 waits in line
+The client #20 enters the swimming pool
+The client #1 waits in line
+The client #2 waits in line
+The client #20 waits in line
+The client #0 leaves the counter #0
+The client #21 enters the swimming pool
+The client #0 gets in the changing room
+The client #0 puts on their swimsuit
+The client #18 waits in line
+The client #25 enters the swimming pool
+The client #18 buys a ticket at the counter #0
+The client #25 waits in line
+The client #10 waits in line
+The client #8 waits in line
+The client #7 waits in line
+The client #15 waits in line
+The client #9 waits in line
+The client #14 waits in line
+The client #24 enters the swimming pool
+The client #12 waits in line
+The client #24 waits in line
+The client #4 leaves the counter #1
+The client #4 gets in the changing room
+The client #21 waits in line
+The client #4 puts on their swimsuit
+The client #21 buys a ticket at the counter #1
+The client #27 enters the swimming pool
+The client #26 enters the swimming pool
+The client #27 waits in line
+The client #26 waits in line
+The client #36 enters the swimming pool
+The client #36 waits in line
+The client #30 enters the swimming pool
+The client #30 waits in line
+The client #38 enters the swimming pool
+The client #29 enters the swimming pool
+The client #39 enters the swimming pool
+The client #38 waits in line
+The client #39 waits in line
+The client #29 waits in line
+The client #31 enters the swimming pool
+The client #32 enters the swimming pool
+The client #34 enters the swimming pool
+The client #31 waits in line
+The client #33 enters the swimming pool
+The client #34 waits in line
+The client #35 enters the swimming pool
+The client #32 waits in line
+The client #35 waits in line
+The client #33 waits in line
+The client #28 enters the swimming pool
+The client #37 enters the swimming pool
+The client #18 leaves the counter #0
+The client #18 gets in the changing room
+The client #21 leaves the counter #1
+The client #18 puts on their swimsuit
+The client #37 waits in line
+The client #13 buys a ticket at the counter #1
+The client #11 buys a ticket at the counter #0
+The client #21 gets in the changing room
+The client #21 puts on their swimsuit
+The client #28 waits in line
+The client #0 leaves the changing room
+The client #13 leaves the counter #1
+The client #13 gets in the changing room
+The client #13 puts on their swimsuit
+The client #11 leaves the counter #0
+The client #11 is waiting for people to leave the changing room
+The client #17 buys a ticket at the counter #0
+The client #16 buys a ticket at the counter #1
+The client #0 dived in the pool!
+The client #4 leaves the changing room
+The client #4 dived in the pool!
+The client #11 gets in the changing room
+The client #11 puts on their swimsuit
+The client #17 leaves the counter #0
+The client #17 is waiting for people to leave the changing room
+The client #16 leaves the counter #1
+The client #19 buys a ticket at the counter #0
+The client #16 is waiting for people to leave the changing room
+The client #22 buys a ticket at the counter #1
+The client #21 leaves the changing room
+The client #17 gets in the changing room
+The client #17 puts on their swimsuit
+The client #18 leaves the changing room
+The client #18 dived in the pool!
+The client #21 borrows a pair of swimfins and heads to the pool
+The client #16 gets in the changing room
+The client #16 puts on their swimsuit
+The client #19 leaves the counter #0
+The client #19 is waiting for people to leave the changing room
+The client #22 leaves the counter #1
+The client #23 buys a ticket at the counter #0
+The client #3 buys a ticket at the counter #1
+The client #22 is waiting for people to leave the changing room
+The client #13 leaves the changing room
+The client #21 dived in the pool!
+The client #13 borrows a pair of swimfins and heads to the pool
+The client #19 gets in the changing room
+The client #19 puts on their swimsuit
+The client #23 leaves the counter #0
+The client #11 leaves the changing room
+The client #3 leaves the counter #1
+The client #1 buys a ticket at the counter #0
+The client #2 buys a ticket at the counter #1
+The client #22 gets in the changing room
+The client #3 is waiting for people to leave the changing room
+The client #22 puts on their swimsuit
+The client #23 is waiting for people to leave the changing room
+The client #13 dived in the pool!
+The client #11 borrows a pair of swimfins and heads to the pool
+The client #16 leaves the changing room
+The client #16 dived in the pool!
+The client #3 gets in the changing room
+The client #3 puts on their swimsuit
+The client #17 leaves the changing room
+The client #23 gets in the changing room
+The client #17 dived in the pool!
+The client #23 puts on their swimsuit
+The client #1 leaves the counter #0
+The client #1 is waiting for people to leave the changing room
+The client #2 leaves the counter #1
+The client #20 buys a ticket at the counter #0
+The client #25 buys a ticket at the counter #1
+The client #2 is waiting for people to leave the changing room
+The client #11 dived in the pool!
+The client #19 leaves the changing room
+The client #19 dived in the pool!
+The client #1 gets in the changing room
+The client #1 puts on their swimsuit
+The client #25 leaves the counter #1
+The client #25 is waiting for people to leave the changing room
+The client #10 buys a ticket at the counter #1
+The client #20 leaves the counter #0
+The client #20 is waiting for people to leave the changing room
+The client #8 buys a ticket at the counter #0
+The client #22 leaves the changing room
+The client #4 left the pool
+The client #2 gets in the changing room
+The client #22 borrows a pair of swimfins and heads to the pool
+The client #4 is waiting for people to leave the changing room
+The client #2 puts on their swimsuit
+The client #10 leaves the counter #1
+The client #23 leaves the changing room
+The client #22 dived in the pool!
+The client #23 borrows a pair of swimfins and heads to the pool
+The client #25 gets in the changing room
+The client #7 buys a ticket at the counter #1
+The client #8 leaves the counter #0
+The client #10 is waiting for people to leave the changing room
+The client #15 buys a ticket at the counter #0
+The client #25 puts on their swimsuit
+The client #3 leaves the changing room
+The client #20 gets in the changing room
+The client #20 puts on their swimsuit
+The client #8 is waiting for people to leave the changing room
+The client #1 leaves the changing room
+The client #4 gets in the changing room
+The client #4 changes their clothes back
+The client #2 leaves the changing room
+The client #1 borrows a pair of swimfins and heads to the pool
+The client #23 dived in the pool!
+The client #7 leaves the counter #1
+The client #10 gets in the changing room
+The client #15 leaves the counter #0
+The client #9 buys a ticket at the counter #1
+The client #14 buys a ticket at the counter #0
+The client #10 puts on their swimsuit
+The client #7 is waiting for people to leave the changing room
+The client #15 is waiting for people to leave the changing room
+The client #13 left the pool
+The client #0 left the pool
+The client #0 is waiting for people to leave the changing room
+The client #9 leaves the counter #1
+The client #3 borrows a pair of swimfins and heads to the pool
+The client #25 leaves the changing room
+The client #21 left the pool
+The client #8 gets in the changing room
+The client #14 leaves the counter #0
+The client #12 buys a ticket at the counter #1
+The client #24 buys a ticket at the counter #0
+The client #8 puts on their swimsuit
+The client #9 is waiting for people to leave the changing room
+The client #1 dived in the pool!
+The client #25 dived in the pool!
+The client #20 leaves the changing room
+The client #7 gets in the changing room
+The client #7 puts on their swimsuit
+The client #14 is waiting for people to leave the changing room
+The client #18 left the pool
+The client #18 is waiting for people to leave the changing room
+The client #17 left the pool
+The client #17 is waiting for people to leave the changing room
+The client #24 leaves the counter #0
+The client #4 leaves the changing room
+The client #20 borrows a pair of swimfins and heads to the pool
+The client #3 dived in the pool!
+The client #15 gets in the changing room
+The client #4 leaves the swimming pool
+The client #12 leaves the counter #1
+The client #6 buys a ticket at the counter #0
+The client #5 buys a ticket at the counter #1
+The client #24 is waiting for people to leave the changing room
+The client #15 puts on their swimsuit
+The client #12 is waiting for people to leave the changing room
+The client #10 leaves the changing room
+The client #19 left the pool
+The client #0 gets in the changing room
+The client #16 left the pool
+The client #19 is waiting for people to leave the changing room
+The client #0 changes their clothes back
+The client #10 dived in the pool!
+The client #16 is waiting for people to leave the changing room
+The client #6 leaves the counter #0
+The client #21 returns his swimfins to the store
+The client #11 left the pool
+The client #8 leaves the changing room
+The client #20 dived in the pool!
+The client #5 leaves the counter #1
+The client #27 buys a ticket at the counter #0
+The client #26 buys a ticket at the counter #1
+The client #9 gets in the changing room
+The client #9 puts on their swimsuit
+The client #5 is waiting for people to leave the changing room
+The client #6 is waiting for people to leave the changing room
+The client #7 leaves the changing room
+The client #14 gets in the changing room
+The client #14 puts on their swimsuit
+The client #7 dived in the pool!
+The client #26 leaves the counter #1
+The client #13 returns his swimfins to the store
+The client #27 leaves the counter #0
+The client #21 is waiting for people to leave the changing room
+The client #30 buys a ticket at the counter #0
+The client #36 buys a ticket at the counter #1
+The client #27 is waiting for people to leave the changing room
+The client #26 is waiting for people to leave the changing room
+The client #15 leaves the changing room
+The client #18 gets in the changing room
+The client #15 dived in the pool!
+The client #0 leaves the changing room
+The client #0 leaves the swimming pool
+The client #18 changes their clothes back
+The client #17 gets in the changing room
+The client #17 changes their clothes back
+The client #13 is waiting for people to leave the changing room
+The client #2 borrows a pair of swimfins and heads to the pool
+The client #30 leaves the counter #0
+The client #30 is waiting for people to leave the changing room
+The client #36 leaves the counter #1
+The client #38 buys a ticket at the counter #0
+The client #36 is waiting for people to leave the changing room
+The client #39 buys a ticket at the counter #1
+The client #14 leaves the changing room
+The client #25 left the pool
+The client #9 leaves the changing room
+The client #9 dived in the pool!
+The client #24 gets in the changing room
+The client #24 puts on their swimsuit
+The client #25 gets in the changing room
+The client #25 changes their clothes back
+The client #12 is waiting for people to leave the changing room
+The client #38 leaves the counter #0
+The client #14 borrows a pair of swimfins and heads to the pool
+The client #29 buys a ticket at the counter #0
+The client #2 dived in the pool!
+The client #39 leaves the counter #1
+The client #38 is waiting for people to leave the changing room
+The client #31 buys a ticket at the counter #1
+The client #39 is waiting for people to leave the changing room
+The client #17 leaves the changing room
+The client #17 leaves the swimming pool
+The client #19 gets in the changing room
+The client #19 changes their clothes back
+The client #18 leaves the changing room
+The client #18 leaves the swimming pool
+The client #16 gets in the changing room
+The client #16 changes their clothes back
+The client #29 leaves the counter #0
+The client #8 is waiting for a pair of swimfins
+The client #22 left the pool
+The client #11 returns his swimfins to the store
+The client #31 leaves the counter #1
+The client #34 buys a ticket at the counter #0
+The client #29 is waiting for people to leave the changing room
+The client #32 buys a ticket at the counter #1
+The client #14 dived in the pool!
+The client #31 is waiting for people to leave the changing room
+The client #1 left the pool
+The client #24 leaves the changing room
+The client #5 gets in the changing room
+The client #24 dived in the pool!
+The client #25 leaves the changing room
+The client #5 puts on their swimsuit
+The client #6 gets in the changing room
+The client #25 leaves the swimming pool
+The client #6 puts on their swimsuit
+The client #34 leaves the counter #0
+The client #8 borrows a pair of swimfins and heads to the pool
+The client #11 is waiting for people to leave the changing room
+The client #32 leaves the counter #1
+The client #35 buys a ticket at the counter #0
+The client #33 buys a ticket at the counter #1
+The client #34 is waiting for people to leave the changing room
+The client #32 is waiting for people to leave the changing room
+The client #23 left the pool
+The client #33 leaves the counter #1
+The client #19 leaves the changing room
+The client #37 buys a ticket at the counter #1
+The client #23 returns his swimfins to the store
+The client #8 dived in the pool!
+The client #21 gets in the changing room
+The client #19 leaves the swimming pool
+The client #35 leaves the counter #0
+The client #21 changes their clothes back
+The client #33 is waiting for people to leave the changing room
+The client #28 buys a ticket at the counter #0
+The client #16 leaves the changing room
+The client #16 leaves the swimming pool
+The client #27 gets in the changing room
+The client #27 puts on their swimsuit
+The client #35 is waiting for people to leave the changing room
+The client #10 left the pool
+The client #10 is waiting for people to leave the changing room
+The client #3 left the pool
+The client #6 leaves the changing room
+The client #1 returns his swimfins to the store
+The client #37 leaves the counter #1
+The client #26 gets in the changing room
+The client #28 leaves the counter #0
+The client #37 is waiting for people to leave the changing room
+The client #26 puts on their swimsuit
+The client #23 is waiting for people to leave the changing room
+The client #5 leaves the changing room
+The client #13 gets in the changing room
+The client #13 changes their clothes back
+The client #28 is waiting for people to leave the changing room
+The client #7 left the pool
+The client #7 is waiting for people to leave the changing room
+The client #15 left the pool
+The client #15 is waiting for people to leave the changing room
+The client #1 is waiting for people to leave the changing room
+The client #22 returns his swimfins to the store
+The client #21 leaves the changing room
+The client #21 leaves the swimming pool
+The client #20 left the pool
+The client #30 gets in the changing room
+The client #30 puts on their swimsuit
+The client #27 leaves the changing room
+The client #27 dived in the pool!
+The client #36 gets in the changing room
+The client #36 puts on their swimsuit
+The client #2 left the pool
+The client #22 is waiting for people to leave the changing room
+The client #20 returns his swimfins to the store
+The client #26 leaves the changing room
+The client #14 left the pool
+The client #12 gets in the changing room
+The client #12 puts on their swimsuit
+The client #13 leaves the changing room
+The client #13 leaves the swimming pool
+The client #38 gets in the changing room
+The client #38 puts on their swimsuit
+The client #20 is waiting for people to leave the changing room
+The client #5 borrows a pair of swimfins and heads to the pool
+The client #9 left the pool
+The client #9 is waiting for people to leave the changing room
+The client #5 dived in the pool!
+The client #6 borrows a pair of swimfins and heads to the pool
+The client #30 leaves the changing room
+The client #39 gets in the changing room
+The client #39 puts on their swimsuit
+The client #36 leaves the changing room
+The client #36 dived in the pool!
+The client #29 gets in the changing room
+The client #29 puts on their swimsuit
+The client #12 leaves the changing room
+The client #31 gets in the changing room
+The client #31 puts on their swimsuit
+The client #38 leaves the changing room
+The client #11 gets in the changing room
+The client #11 changes their clothes back
+The client #6 dived in the pool!
+The client #3 returns his swimfins to the store
+The client #8 left the pool
+The client #24 left the pool
+The client #24 is waiting for people to leave the changing room
+The client #39 leaves the changing room
+The client #39 dived in the pool!
+The client #34 gets in the changing room
+The client #34 puts on their swimsuit
+The client #29 leaves the changing room
+The client #29 dived in the pool!
+The client #32 gets in the changing room
+The client #32 puts on their swimsuit
+The client #27 left the pool
+The client #3 is waiting for people to leave the changing room
+The client #8 returns his swimfins to the store
+The client #27 is waiting for people to leave the changing room
+The client #11 leaves the changing room
+The client #11 leaves the swimming pool
+The client #33 gets in the changing room
+The client #33 puts on their swimsuit
+The client #31 leaves the changing room
+The client #35 gets in the changing room
+The client #35 puts on their swimsuit
+The client #31 dived in the pool!
+The client #8 is waiting for people to leave the changing room
+The client #38 borrows a pair of swimfins and heads to the pool
+The client #34 leaves the changing room
+The client #34 dived in the pool!
+The client #10 gets in the changing room
+The client #10 changes their clothes back
+The client #32 leaves the changing room
+The client #32 dived in the pool!
+The client #37 gets in the changing room
+The client #37 puts on their swimsuit
+The client #38 dived in the pool!
+The client #12 borrows a pair of swimfins and heads to the pool
+The client #35 leaves the changing room
+The client #23 gets in the changing room
+The client #23 changes their clothes back
+The client #33 leaves the changing room
+The client #28 gets in the changing room
+The client #28 puts on their swimsuit
+The client #12 dived in the pool!
+The client #30 borrows a pair of swimfins and heads to the pool
+The client #36 left the pool
+The client #14 returns his swimfins to the store
+The client #10 leaves the changing room
+The client #5 left the pool
+The client #30 dived in the pool!
+The client #7 gets in the changing room
+The client #10 leaves the swimming pool
+The client #36 is waiting for people to leave the changing room
+The client #7 changes their clothes back
+The client #37 leaves the changing room
+The client #15 gets in the changing room
+The client #37 dived in the pool!
+The client #15 changes their clothes back
+The client #28 leaves the changing room
+The client #26 borrows a pair of swimfins and heads to the pool
+The client #28 waits for people to leave the pool
+The client #1 gets in the changing room
+The client #1 changes their clothes back
+The client #23 leaves the changing room
+The client #23 leaves the swimming pool
+The client #14 gets in the changing room
+The client #14 changes their clothes back
+The client #22 is waiting for people to leave the changing room
+The client #6 left the pool
+The client #28 dived in the pool!
+The client #29 left the pool
+The client #29 is waiting for people to leave the changing room
+The client #26 dived in the pool!
+The client #2 returns his swimfins to the store
+The client #7 leaves the changing room
+The client #7 leaves the swimming pool
+The client #20 gets in the changing room
+The client #20 changes their clothes back
+The client #15 leaves the changing room
+The client #15 leaves the swimming pool
+The client #9 gets in the changing room
+The client #9 changes their clothes back
+The client #2 is waiting for people to leave the changing room
+The client #6 returns his swimfins to the store
+The client #32 left the pool
+The client #32 is waiting for people to leave the changing room
+The client #39 left the pool
+The client #39 is waiting for people to leave the changing room
+The client #14 leaves the changing room
+The client #14 leaves the swimming pool
+The client #24 gets in the changing room
+The client #24 changes their clothes back
+The client #1 leaves the changing room
+The client #1 leaves the swimming pool
+The client #3 gets in the changing room
+The client #3 changes their clothes back
+The client #34 left the pool
+The client #6 is waiting for people to leave the changing room
+The client #5 returns his swimfins to the store
+The client #34 is waiting for people to leave the changing room
+The client #20 leaves the changing room
+The client #31 left the pool
+The client #27 gets in the changing room
+The client #27 changes their clothes back
+The client #20 leaves the swimming pool
+The client #31 is waiting for people to leave the changing room
+The client #9 leaves the changing room
+The client #9 leaves the swimming pool
+The client #33 borrows a pair of swimfins and heads to the pool
+The client #8 gets in the changing room
+The client #8 changes their clothes back
+The client #5 is waiting for people to leave the changing room
+The client #12 left the pool
+The client #3 leaves the changing room
+The client #3 leaves the swimming pool
+The client #36 gets in the changing room
+The client #36 changes their clothes back
+The client #24 leaves the changing room
+The client #24 leaves the swimming pool
+The client #22 gets in the changing room
+The client #22 changes their clothes back
+The client #37 left the pool
+The client #37 is waiting for people to leave the changing room
+The client #38 left the pool
+The client #35 borrows a pair of swimfins and heads to the pool
+The client #33 dived in the pool!
+The client #27 leaves the changing room
+The client #38 returns his swimfins to the store
+The client #35 dived in the pool!
+The client #29 gets in the changing room
+The client #29 changes their clothes back
+The client #27 leaves the swimming pool
+The client #8 leaves the changing room
+The client #8 leaves the swimming pool
+The client #30 left the pool
+The client #2 gets in the changing room
+The client #2 changes their clothes back
+The client #22 leaves the changing room
+The client #22 leaves the swimming pool
+The client #32 gets in the changing room
+The client #32 changes their clothes back
+The client #36 leaves the changing room
+The client #36 leaves the swimming pool
+The client #39 gets in the changing room
+The client #39 changes their clothes back
+The client #26 left the pool
+The client #38 is waiting for people to leave the changing room
+The client #12 returns his swimfins to the store
+The client #28 left the pool
+The client #28 is waiting for people to leave the changing room
+The client #29 leaves the changing room
+The client #26 returns his swimfins to the store
+The client #6 gets in the changing room
+The client #29 leaves the swimming pool
+The client #12 is waiting for people to leave the changing room
+The client #6 changes their clothes back
+The client #2 leaves the changing room
+The client #2 leaves the swimming pool
+The client #34 gets in the changing room
+The client #34 changes their clothes back
+The client #39 leaves the changing room
+The client #30 returns his swimfins to the store
+The client #31 gets in the changing room
+The client #39 leaves the swimming pool
+The client #32 leaves the changing room
+The client #32 leaves the swimming pool
+The client #31 changes their clothes back
+The client #26 gets in the changing room
+The client #26 changes their clothes back
+The client #5 is waiting for people to leave the changing room
+The client #30 is waiting for people to leave the changing room
+The client #6 leaves the changing room
+The client #6 leaves the swimming pool
+The client #37 gets in the changing room
+The client #37 changes their clothes back
+The client #34 leaves the changing room
+The client #34 leaves the swimming pool
+The client #38 gets in the changing room
+The client #38 changes their clothes back
+The client #26 leaves the changing room
+The client #26 leaves the swimming pool
+The client #31 leaves the changing room
+The client #31 leaves the swimming pool
+The client #28 gets in the changing room
+The client #28 changes their clothes back
+The client #12 gets in the changing room
+The client #12 changes their clothes back
+The client #33 left the pool
+The client #33 returns his swimfins to the store
+The client #37 leaves the changing room
+The client #35 left the pool
+The client #5 gets in the changing room
+The client #37 leaves the swimming pool
+The client #5 changes their clothes back
+The client #33 is waiting for people to leave the changing room
+The client #35 returns his swimfins to the store
+The client #38 leaves the changing room
+The client #38 leaves the swimming pool
+The client #30 gets in the changing room
+The client #30 changes their clothes back
+The client #28 leaves the changing room
+The client #28 leaves the swimming pool
+The client #33 gets in the changing room
+The client #12 leaves the changing room
+The client #12 leaves the swimming pool
+The client #33 changes their clothes back
+The client #35 gets in the changing room
+The client #35 changes their clothes back
+The client #5 leaves the changing room
+The client #5 leaves the swimming pool
+The client #30 leaves the changing room
+The client #30 leaves the swimming pool
+The client #33 leaves the changing room
+The client #33 leaves the swimming pool
+The client #35 leaves the changing room
+The client #35 leaves the swimming pool
+Everyone left!

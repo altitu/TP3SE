@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Main {
 	
-	private final static int nbClients = 400;
+	private final static int nbClients = 40;
 	
 	public static void main(String args[]) {
 		SwimmingPool swimmingPool = new SwimmingPool();
